@@ -21,58 +21,58 @@ $txt = $update->message->text;
 $chat_id = $update->message->chat->id;
 $message_id = $update->message->message_id;
 $from = $update->message->from->id;
-$channelusername = 'آیدی کانال با @';
-$channelnoa = 'آیدی کانال بدون @';
-$adminnoa = 'آیدی ادمین بدون @';
-$admin = "آیدی عددی ادمین";
+$channelusername = '@ios_ir';
+$channelnoa = 'ios_ir';
+$adminnoa = 'nader_ir_niakan';
+$admin = "225987393";
 
 $jock = json_encode(['inline_keyboard'=>[
     [['text'=>'😆اولین پیام کانال😆','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'😆کانال جوکدونی😆','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'😆کانال اپل ایس😆','url'=>'https://telegram.me/'.$channelnoa]],
     [['text'=>'😆تبلیغات شما در اینجا😆','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'😆سایت جوکدونی😆','url'=>'http://jockdoni.is-best.net']]
+        ['text'=>'😆سایت اپل ایس 😆','url'=>'http://appleice.ir']]
 ]]);
 
 $dialog = json_encode(['inline_keyboard'=>[
     [['text'=>'🎬اولین پیام کانال🎬','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'🎬کانال جوکدونی🎬','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'🎬کانال اپل ایس 🎬','url'=>'https://telegram.me/'.$channelnoa]],
     [['text'=>'🎬تبلیغات شما در اینجا🎬','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'🎬سایت جوکدونی🎬','url'=>'http://jockdoni.is-best.net']]
+        ['text'=>'🎬 سایت اپل ایس','url'=>'http://appleice.ir']]
 ]]);
 
 $yalda = json_encode(['inline_keyboard'=>[
     [['text'=>'🍉اولین پیام کانال🍉','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'🍉کانال جوکدونی🍉','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'🍉کانال اپل ایس🍉','url'=>'https://telegram.me/'.$channelnoa]],
     [['text'=>'🍉تبلیغات شما در اینجا🍉','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'🍉سایت جوکدونی🍉','url'=>'http://jockdoni.is-best.net']]
+        ['text'=>'🍉سایت اپل ایس🍉','url'=>'http://appleice.ir']]
 ]]);
 
 $sms = json_encode(['inline_keyboard'=>[
     [['text'=>'✉️اولین پیام کانال✉️','url'=>'https://telegram.me/'.$channelnoa.'/5']],
     [['text'=>'✉️کانال جوکدونی✉️','url'=>'https://telegram.me/'.$channelnoa]],
     [['text'=>'✉️تبلیغات شما در اینجا✉️','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'✉️سایت جوکدونی✉️','url'=>'http://jockdoni.is-best.net']]
+        ['text'=>'✉️سایت جوکدونی✉️','url'=>'http://appleice.ir']]
 ]]);
 
 $video = json_encode(['inline_keyboard'=>[
     [['text'=>'📺اولین پیام کانال📺','url'=>'https://telegram.me/'.$channelnoa.'/5']],
     [['text'=>'📺کانال جوکدونی📺','url'=>'https://telegram.me/'.$channelnoa]],
     [['text'=>'📺تبلیغات شما در اینجا📺','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'📺سایت جوکدونی📺','url'=>'http://jockdoni.is-best.net']]
+        ['text'=>'📺سایت جوکدونی📺','url'=>'http://appleice.ir']]
 ]]);
 
 $photo = json_encode(['inline_keyboard'=>[
     [['text'=>'🌈اولین پیام کانال🌈','url'=>'https://telegram.me/'.$channelnoa.'/5']],
     [['text'=>'🌈کانال جوکدونی🌈','url'=>'https://telegram.me/'.$channelnoa]],
     [['text'=>'🌈تبلیغات شما در اینجا🌈','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'🌈سایت جوکدونی🌈','url'=>'http://jockdoni.is-best.net']]
+        ['text'=>'🌈سایت جوکدونی🌈','url'=>'http://appleice.ir']]
 ]]);
 
 $sticker = json_encode(['inline_keyboard'=>[
     [['text'=>'📀اولین پیام کانال📀','url'=>'https://telegram.me/'.$channelnoa.'/5']],
     [['text'=>'📀کانال جوکدونی📀','url'=>'https://telegram.me/'.$channelnoa]],
     [['text'=>'📀تبلیغات شما در اینجا📀','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'📀سایت جوکدونی📀','url'=>'http://jockdoni.is-best.net']]
+        ['text'=>'📀سایت جوکدونی📀','url'=>'http://appleice.ir']]
 ]]);
 
 if($from == $admin) {
