@@ -246,9 +246,9 @@ if(isset($update->callback_query)){
     
     jockdoni('sendMessage',[
         'chat_id'=>$channelusername,
-        'text'=>'#دیالوگ
+        'text'=>'#اپل
       '.$dialogs.'
-      📜 <a href="http://telegram.me/'.$channelnoa.'"'.">کانال جوکدونی </a>
+      📜 <a href="http://telegram.me/'.$channelnoa.'"'.">کانال اپل ایس </a>
 
 ╭─═ঊঈ🎬ঊঈ═─╮
 🎬 $channelusername 🎬
@@ -261,9 +261,9 @@ if(isset($update->callback_query)){
     
     jockdoni('sendMessage',[
         'chat_id'=>$channelusername,
-        'text'=>'#جوک
+        'text'=>'#اپل
       '.$jocks.'
-      📜 <a href="http://telegram.me/'.$channelnoa.'"'.">کانال جوکدونی </a>
+      📜 <a href="http://telegram.me/'.$channelnoa.'"'.">کانال اپل ایس </a>
 
 ╭─═ঊঈ😆ঊঈ═─╮
 😆 $channelusername 😆
@@ -276,9 +276,9 @@ if(isset($update->callback_query)){
 
     jockdoni('sendMessage', [
         'chat_id' => $channelusername,
-        'text' => '#یلدا
+        'text' => '#اپل
       ' . $yaldas . '
-      📜 <a href="http://telegram.me/' . $channelnoa . '"' . ">کانال جوکدونی </a>
+      📜 <a href="http://telegram.me/' . $channelnoa . '"' . ">کانال اپل ایس </a>
 
 ╭─═ঊঈ🍉ঊঈ═─╮
 🍉 $channelusername 🍉
@@ -292,9 +292,9 @@ if(isset($update->callback_query)){
 
     jockdoni('sendMessage', [
         'chat_id' => $channelusername,
-        'text' => '#اس_ام_اس
+        'text' => '#اپل
       ' . $smss . '
-      📜 <a href="http://telegram.me/' . $channelnoa . '"' . ">کانال جوکدونی </a>
+      📜 <a href="http://telegram.me/' . $channelnoa . '"' . ">کانال اپل ایس </a>
 
 ╭─═ঊঈ✉️ঊঈ═─╮
 ✉️ $channelusername ✉️
