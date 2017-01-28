@@ -27,52 +27,52 @@ $adminnoa = 'nader_ir_niakan';
 $admin = "225987393";
 
 $jock = json_encode(['inline_keyboard'=>[
-    [['text'=>'😆اولین پیام کانال😆','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'😆کانال اپل ایس😆','url'=>'https://telegram.me/'.$channelnoa]],
-    [['text'=>'😆تبلیغات شما در اینجا😆','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'😆سایت اپل ایس 😆','url'=>'http://appleice.ir']]
+    [['text'=>'اولین پیام کانال','url'=>'https://telegram.me/'.$channelnoa.'/5']],
+    [['text'=>'کانال اپل ایس','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'تبلیغات شما در اینجا','url'=>'https://telegram.me/'.$adminnoa],
+        ['text'=>'سایت اپل ایس ','url'=>'http://appleice.ir']]
 ]]);
 
 $dialog = json_encode(['inline_keyboard'=>[
-    [['text'=>'🎬اولین پیام کانال🎬','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'🎬کانال اپل ایس 🎬','url'=>'https://telegram.me/'.$channelnoa]],
-    [['text'=>'🎬تبلیغات شما در اینجا🎬','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'🎬 سایت اپل ایس','url'=>'http://appleice.ir']]
+    [['text'=>'اولین پیام کانال','url'=>'https://telegram.me/'.$channelnoa.'/5']],
+    [['text'=>'کانال اپل ایس ','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'تبلیغات شما در اینجا','url'=>'https://telegram.me/'.$adminnoa],
+        ['text'=>' سایت اپل ایس','url'=>'http://appleice.ir']]
 ]]);
 
 $yalda = json_encode(['inline_keyboard'=>[
-    [['text'=>'🍉اولین پیام کانال🍉','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'🍉کانال اپل ایس🍉','url'=>'https://telegram.me/'.$channelnoa]],
-    [['text'=>'🍉تبلیغات شما در اینجا🍉','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'🍉سایت اپل ایس🍉','url'=>'http://appleice.ir']]
+    [['text'=>'اولین پیام کانال','url'=>'https://telegram.me/'.$channelnoa.'/5']],
+    [['text'=>'کانال اپل ایس','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'تبلیغات شما در اینجا','url'=>'https://telegram.me/'.$adminnoa],
+        ['text'=>'سایت اپل ایس','url'=>'http://appleice.ir']]
 ]]);
 
 $sms = json_encode(['inline_keyboard'=>[
-    [['text'=>'✉️اولین پیام کانال✉️','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'✉️کانال اپل ایس✉️','url'=>'https://telegram.me/'.$channelnoa]],
-    [['text'=>'✉️تبلیغات شما در اینجا✉️','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'✉️سایت اپل ایس✉️','url'=>'http://appleice.ir']]
+    [['text'=>'اولین پیام کانال','url'=>'https://telegram.me/'.$channelnoa.'/5']],
+    [['text'=>'کانال اپل ایس','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'تبلیغات شما در اینجا','url'=>'https://telegram.me/'.$adminnoa],
+        ['text'=>'سایت اپل ایس','url'=>'http://appleice.ir']]
 ]]);
 
 $video = json_encode(['inline_keyboard'=>[
-    [['text'=>'📺اولین پیام کانال📺','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'📺کانال اپل ایس📺','url'=>'https://telegram.me/'.$channelnoa]],
-    [['text'=>'📺تبلیغات شما در اینجا📺','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'📺سایت اپل ایس📺','url'=>'http://appleice.ir']]
+    [['text'=>'اولین پیام کانال','url'=>'https://telegram.me/'.$channelnoa.'/5']],
+    [['text'=>'کانال اپل ایس','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'تبلیغات شما در اینجا','url'=>'https://telegram.me/'.$adminnoa],
+        ['text'=>'سایت اپل ایس','url'=>'http://appleice.ir']]
 ]]);
 
 $photo = json_encode(['inline_keyboard'=>[
-    [['text'=>'🌈اولین پیام کانال🌈','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'🌈کانال اپل ایس🌈','url'=>'https://telegram.me/'.$channelnoa]],
-    [['text'=>'🌈تبلیغات شما در اینجا🌈','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'🌈سایت اپل ایس🌈','url'=>'http://appleice.ir']]
+    [['text'=>'اولین پیام کانال','url'=>'https://telegram.me/'.$channelnoa.'/5']],
+    [['text'=>'کانال اپل ایس','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'تبلیغات شما در اینجا','url'=>'https://telegram.me/'.$adminnoa],
+        ['text'=>'سایت اپل ایس','url'=>'http://appleice.ir']]
 ]]);
 
 $sticker = json_encode(['inline_keyboard'=>[
-    [['text'=>'📀اولین پیام کانال📀','url'=>'https://telegram.me/'.$channelnoa.'/5']],
-    [['text'=>'📀کانال اپل ایس📀','url'=>'https://telegram.me/'.$channelnoa]],
-    [['text'=>'📀تبلیغات شما در اینجا📀','url'=>'https://telegram.me/'.$adminnoa],
-        ['text'=>'📀سایت اپل ایس📀','url'=>'http://appleice.ir']]
+    [['text'=>'اولین پیام کانال','url'=>'https://telegram.me/'.$channelnoa.'/5']],
+    [['text'=>'کانال اپل ایس','url'=>'https://telegram.me/'.$channelnoa]],
+    [['text'=>'تبلیغات شما در اینجا','url'=>'https://telegram.me/'.$adminnoa],
+        ['text'=>'سایت اپل ایس','url'=>'http://appleice.ir']]
 ]]);
 
 if($from == $admin) {
@@ -82,7 +82,7 @@ if($from == $admin) {
         'chat_id' => $channelusername,
         'video' =>$update->message->video->file_id,
         'caption'=>$update->message->video->caption . "
-        📺 $channelusername",
+         $channelusername",
             'reply_markup'=>$video
     ]);
   }
@@ -250,9 +250,9 @@ if(isset($update->callback_query)){
       '.$dialogs.'
       📜 <a href="http://telegram.me/'.$channelnoa.'"'.">کانال اپل ایس </a>
 
-╭─═ঊঈ🎬ঊঈ═─╮
-🎬 $channelusername 🎬
-╰─═ঊঈ🎬ঊঈ═─╯",
+╭─═ঊঈঊঈ═─╮
+ $channelusername 
+╰─═ঊঈঊঈ═─╯",
         'parse_mode'=>'HTML',
         'reply_markup'=>$dialog
     ]);
@@ -265,9 +265,9 @@ if(isset($update->callback_query)){
       '.$jocks.'
       📜 <a href="http://telegram.me/'.$channelnoa.'"'.">کانال اپل ایس </a>
 
-╭─═ঊঈ😆ঊঈ═─╮
-😆 $channelusername 😆
-╰─═ঊঈ😆ঊঈ═─╯",
+╭─═ঊঈঊঈ═─╮
+ $channelusername 
+╰─═ঊঈঊঈ═─╯",
         'parse_mode'=>'HTML',
         'reply_markup'=>$jock
     ]);
@@ -280,9 +280,9 @@ if(isset($update->callback_query)){
       ' . $yaldas . '
       📜 <a href="http://telegram.me/' . $channelnoa . '"' . ">کانال اپل ایس </a>
 
-╭─═ঊঈ🍉ঊঈ═─╮
-🍉 $channelusername 🍉
-╰─═ঊঈ🍉ঊঈ═─╯",
+╭─═ঊঈঊঈ═─╮
+ $channelusername 
+╰─═ঊঈঊঈ═─╯",
         'parse_mode' => 'HTML',
         'reply_markup' => $yalda
     ]);
@@ -296,9 +296,9 @@ if(isset($update->callback_query)){
       ' . $smss . '
       📜 <a href="http://telegram.me/' . $channelnoa . '"' . ">کانال اپل ایس </a>
 
-╭─═ঊঈ✉️ঊঈ═─╮
-✉️ $channelusername ✉️
-╰─═ঊঈ✉️ঊঈ═─╯",
+╭─═ঊঈঊঈ═─╮
+ $channelusername 
+╰─═ঊঈঊঈ═─╯",
         'parse_mode' => 'HTML',
         'reply_markup' => $sms
     ]);
